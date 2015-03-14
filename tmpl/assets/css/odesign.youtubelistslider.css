@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+ /* odesign slider thumbnail navigator skin 11 css */
+                /*
+                .odesignt11 .p            (normal)
+                .odesignt11 .p:hover      (normal mouseover)
+                .odesignt11 .pav          (active)
+                .odesignt11 .pav:hover    (active mouseover)
+                .odesignt11 .pdn          (mousedown)
+                */
+			.odesignt11 {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			.odesignt11 .i, .odesignt11 .pav:hover .i {
+				position: absolute;
+				top: 3px;
+				left: 3px;
+				WIDTH: 60px;
+				HEIGHT: 30px;
+				transition: all 0.3s linear;
+			}
+			.odesignt11 .p, .odesignt11 .pav, .odesignt11 .pdn { transition: all 0.3s linear;}
+			.odesignt11 .p .i {
+				border: 1px dotted #fff;
+				transition: all 0.3s linear;
+			}
+			.odesignt11 .p:hover .i {
+				border: 1px solid #fff;
+			}
+			.odesignt11 .pav .i {
+				border:  1px solid #fff;
+				transition: all 0.3s linear;
+			}
+			.odesignt11 .pdn .i {
+				border: 1px dotted #fff;
+				transition: all 0.3s linear;
+			}
+			.odesignt11 .pdn:hover .i {
+				border: 1px solid #fff;
+			}
+			* html .odesignt11 .i {
+				WIDTH /**/: 62px;
+				HEIGHT /**/: 32px;
+			}
+			.odesignt11 .t, .odesignt11 .pav:hover .t {
+				position: absolute;
+				top: 3px;
+				left: 68px;
+				overflow: hidden;
+			}
+			.odesignt11 .t { max-height:38px;line-height:18px;text-align:left; width: 72%;}
+			.odesignt11 .c, .odesignt11 .pav:hover .c {
+				position: absolute;
+				top: 38px;
+				left: 3px;
+				max-height: 46px;
+				line-height: 15px;
+				font-weight: 400;
+				overflow: hidden;
+				padding-right: 5px;
+			}
+			.odesignt11 .pav .c, .odesignt11 .phv .c, .odesignt11 .p:hover .c {
+				color: #ffffff;
+			}
+			.odesignt11 .t, .odesignt11 .c {
+				transition: color 2s;
+				-moz-transition: color 2s;
+				-webkit-transition: color 2s;
+				-o-transition: color 2s;
+			}
+			.odesignt11 .p:hover .t, .odesignt11 .phv .t, .odesignt11 .pav:hover .t, .odesignt11 .p:hover .c, .odesignt11 .phv .c, .odesignt11 .pav:hover .c {
+				transition: none;
+				-moz-transition: none;
+				-webkit-transition: none;
+				-o-transition: none;
+			}
+			body {
+				font-family: Arial, Verdana;
+				background-color: #fff;
+			}
+			/*#43b819*/
+span.slide-no label { font-weight: bold;}
